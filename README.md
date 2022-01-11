@@ -1,2 +1,2 @@
 # HEART
-differential ananlysis  for scRNA-seq data
+HEART: A high-efficiency and robust test for large scale single-cell RNA-sequencing differential expression analysis
