@@ -1,14 +1,18 @@
 Package: HEART
 Type: Package
-Title: HEART: A high-efficiency and robust test for large scale single-cell RNA-sequencing differential expression analysis
-Version: 0.1.0
-Author: Xin Yuan <yuanxin_yx@sjtu.edu.cn>
+Title: A high-efficiency and robust test for large scale single-cell RNA-sequencing differential expression analysis
+Version: 1.1.0
+Author: Xin Yuan
 Maintainer: Xin Yuan <yuanxin_yx@sjtu.edu.cn>
 Description: HEART, a statistical combination test, 
-	can easily capture the various source of the difference beyond mean expression changes 
-	and facilitate the accuracy, robustness, and efficiency of single-cell DE analysis. 
-Depends: R (>= 3.3.0), matrixTests
+	can easily capture the various source of the difference beyond mean 
+	expression changesand facilitate the accuracy, robustness, 
+	and efficiency of single-cell DE analysis.
 License: GPL
 Encoding: UTF-8
-LazyData: trueRoxygenNote: 7.1.1
-RoxygenNote: 7.1.1
+LazyData: true
+Imports:
+  data.table,
+  fBasics,
+  matrixTests
+RoxygenNote: 7.2.0
